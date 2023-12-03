@@ -110,3 +110,27 @@
     text-align: center;
     padding: 8px
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 80px 280px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 8px;
+}
+
+.quote-attribute {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding-right: 32px;
+}
