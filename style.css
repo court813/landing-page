@@ -142,7 +142,8 @@
     border-radius: 8px;
     justify-content: space-between;
     align-items: center;
-    padding: 36px 152px
+    padding: 36px 152px;
+    gap: 16px;
 }
 
 .action-text {
@@ -169,4 +170,13 @@
     border: solid 2px white;
     padding: 8px 24px;
     justify-content: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 16px
 }
