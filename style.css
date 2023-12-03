@@ -134,3 +134,39 @@
     margin: 0;
     padding-right: 32px;
 }
+
+.action {
+    display: flex;
+    background-color: #3882F6;
+    margin: 80px 128px;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 152px
+}
+
+.action-text {
+    color: white;
+}
+
+.action-headline {
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 0
+}
+
+.action-body {
+    font-size: 16px;
+    margin: 0;
+}
+
+.action-button {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 800;
+    border-radius: 8px;
+    border: solid 2px white;
+    padding: 8px 24px;
+    justify-content: center;
+}
